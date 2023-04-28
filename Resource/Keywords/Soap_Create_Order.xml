@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:tem="http://tempuri.org/" xmlns:smis="http://schemas.datacontract.org/2004/07/SMISWebService.IServices">
+    <soapenv:Header/>
+    <soapenv:Body>
+        <tem:GenerateOrder>
+            <!--Optional:-->
+            <tem:inputItem>
+                <smis:AccountName>แบล็ค-แคนยอน (ประเทศไทย)</smis:AccountName>
+                <smis:AccountNo>8000004679</smis:AccountNo>
+                <smis:AccountTaxID>0105536100555</smis:AccountTaxID>
+                <smis:AccountTitle>-</smis:AccountTitle>
+                <!--Optional:-->
+                <smis:AttachFileDetailList>
+                    <!--Zero or more repetitions:-->
+                    <smis:AttachFileDetail>
+                        <smis:DocType>QT</smis:DocType>
+                        <smis:FileName>QT_Q2017GA001520_AWN_30062017_144658.pdf</smis:FileName>
+                        <smis:FilePath>\\10.104.246.10\sht_cap_tst\DATA\SELLING1\SMIS\OUT\COA\QT_Q2017GA001520_AWN_30062017_144658.pdf</smis:FilePath>
+                    </smis:AttachFileDetail>
+                </smis:AttachFileDetailList>
+                <smis:AvailableCredit>1000000</smis:AvailableCredit>
+                <smis:Category>B</smis:Category>
+                <smis:ChargingType>1</smis:ChargingType>
+                <!--Optional:-->
+                <smis:CommercialName></smis:CommercialName>
+                <smis:Company>AWN</smis:Company>
+                <smis:ContactFirstName>กรวิภา</smis:ContactFirstName>
+                <smis:ContactLastName>Test</smis:ContactLastName>
+                <smis:ContactPhone>0892301110</smis:ContactPhone>
+                <smis:ContactTitle>คุณ</smis:ContactTitle>
+                <!--Optional:-->
+                <smis:ContactTitleOther>คุณ</smis:ContactTitleOther>
+                <smis:ContractCostExcVat>102500</smis:ContractCostExcVat>
+                <smis:ContractCostIncVat>1000</smis:ContractCostIncVat>
+                <smis:ContractCostVat>7</smis:ContractCostVat>
+                <smis:ContractEndDate>10/01/2024</smis:ContractEndDate>
+                <smis:ContractStartDate>11/01/2023</smis:ContractStartDate>
+                <smis:FormLanguage>TH</smis:FormLanguage>
+                <smis:HaveDevice>1</smis:HaveDevice>
+                <smis:IsMultiShipto>Y</smis:IsMultiShipto>
+                <smis:IsPort>N</smis:IsPort>
+                <!--Optional:-->
+                <smis:IsSendMail>N</smis:IsSendMail>
+                <smis:IsUPF>1</smis:IsUPF>
+                <!--Optional:-->
+                <smis:LineApproveList>
+                    <!--Zero or more repetitions:-->
+                    <smis:LineApprove>
+                        <smis:ApproveFirstName>วีรชัย</smis:ApproveFirstName>
+                        <smis:ApproveLastName>พัชโรภาสวงศ์</smis:ApproveLastName>
+                        <smis:ApproveLevel>1</smis:ApproveLevel>
+                        <smis:ApprovePosition>H-ESL</smis:ApprovePosition>
+                        <smis:ApproveStatus>AP</smis:ApproveStatus>
+                        <smis:ApproveStatusUpdate>11/01/2023</smis:ApproveStatusUpdate>
+                        <smis:ApproveUser>WEERACPA</smis:ApproveUser>
+                    </smis:LineApprove>
+                </smis:LineApproveList>
+                <!--Optional:-->
+                <smis:MobileDetailList>
+                    <!--Zero or more repetitions:-->
+                    <smis:MobileDetail>
+                        <smis:MobileNumber>0892301110</smis:MobileNumber>
+                        <smis:SaleOrderDetailNo>1</smis:SaleOrderDetailNo>
+                    </smis:MobileDetail>
+                    <smis:MobileDetail>
+                        <smis:MobileNumber>0892301111</smis:MobileNumber>
+                        <smis:SaleOrderDetailNo>1</smis:SaleOrderDetailNo>
+                    </smis:MobileDetail>
+                </smis:MobileDetailList>
+                <smis:PeriodMonth>12</smis:PeriodMonth>
+                <smis:ProductName>Contract Phone</smis:ProductName>
+                <smis:ProductType>Contract Phone</smis:ProductType>
+                <!--Optional:-->
+                <smis:PromotionOnTopList>
+                    <!--Zero or more repetitions:-->
+                    <smis:PromotionOnTop>
+                        <smis:PromotionOntopDesc>เหมาจ่าย 1,500 บาทต่อเดือน รับส่งข้อมูลฟรี 50 MB</smis:PromotionOntopDesc>
+                        <smis:PromotionOntopName>FC 1500Baht Free GPRS 50MB,then 0.05B/KB</smis:PromotionOntopName>
+                        <smis:SaleOrderDetailNo>1</smis:SaleOrderDetailNo>
+                    </smis:PromotionOnTop>
+                </smis:PromotionOnTopList>
+                <smis:QuotationDate>02/02/2023</smis:QuotationDate>
+                <smis:QuotationNo>QUO-17230-230202</smis:QuotationNo>
+                <!--Optional:-->
+                <smis:ReceiverEmail>Test@Test.co.th</smis:ReceiverEmail>
+                <smis:ReceiverName>กรวิภา Test </smis:ReceiverName>
+                <smis:ReceiverPhone>0892301110</smis:ReceiverPhone>
+                <!--Optional:-->
+                <smis:RemarkExceed></smis:RemarkExceed>
+                <!--Optional:-->
+                <smis:RentDesire></smis:RentDesire>
+                <smis:SMTSaleOrderNo>ORD-17230-230202</smis:SMTSaleOrderNo>
+                <smis:SaleBu>BKK</smis:SaleBu>
+                <!--Optional:-->
+                <smis:SaleOrderDetailList>
+                    <!--Zero or more repetitions:-->
+                    <smis:SaleOrderDetail>
+                        <!--Optional:-->
+                        <smis:AccessoriesFor></smis:AccessoriesFor>
+                        <smis:Brand>APPLE</smis:Brand>
+                        <smis:Color>WHITE</smis:Color>
+                        <smis:CommutedAmount>25358</smis:CommutedAmount>
+                        <smis:CompanyOfDevice>AWN</smis:CompanyOfDevice>
+                        <smis:IsMobileCare>N</smis:IsMobileCare>
+                        <!--Optional:-->
+                        <smis:IsSharing>1</smis:IsSharing>
+                        <smis:Model>AIRPODS2</smis:Model>
+                        <smis:NewPCC>NEW</smis:NewPCC>
+                        <smis:PhoneType>M</smis:PhoneType>
+                        <!--Optional:-->
+                        <smis:PrePaidCOS></smis:PrePaidCOS>
+                        <smis:Price>35514.02</smis:Price>
+                        <!--Optional:-->
+                        <smis:PriceEndOfPeriod></smis:PriceEndOfPeriod>
+                        <!--Optional:-->
+                        <smis:PricePerMonth>500</smis:PricePerMonth>
+                        <!--Optional:-->
+                        <smis:PromotionCode></smis:PromotionCode>
+                        <!--Optional:-->
+                        <smis:PromotionDescption></smis:PromotionDescption>
+                        <!--Optional:-->
+                        <smis:PromotionName></smis:PromotionName>
+                        <smis:Quantity>2</smis:Quantity>
+                        <!--Optional:-->
+                        <smis:RentalOfDevice></smis:RentalOfDevice>
+                        <smis:SaleOrderDetailNo>1</smis:SaleOrderDetailNo>
+                        <smis:SumPrice>1</smis:SumPrice>
+                        <!--Optional:-->
+                        <smis:SumUpFront></smis:SumUpFront>
+                        <smis:SupplierType>INTERNAL</smis:SupplierType>
+                        <!--Optional:-->
+                        <smis:TopUpType></smis:TopUpType>
+                        <!--Optional:-->
+                        <smis:TopUpValue></smis:TopUpValue>
+                        <!--Optional:-->
+                        <smis:UpFrontPerNumber></smis:UpFrontPerNumber>
+                    </smis:SaleOrderDetail>
+                </smis:SaleOrderDetailList>
+                <smis:SaleorderDate>11/01/2023</smis:SaleorderDate>
+                <smis:SalesRep>SUNTHITJ</smis:SalesRep>
+                <smis:SalesRepName>สัณฐิติ จันทนกูล</smis:SalesRepName>
+                <!--Optional:-->
+                <smis:ShipToAmphur></smis:ShipToAmphur>
+                <!--Optional:-->
+                <smis:ShipToBuilding></smis:ShipToBuilding>
+                <!--Optional:-->
+                <smis:ShipToFloor></smis:ShipToFloor>
+                <!--Optional:-->
+                <smis:ShipToMoo></smis:ShipToMoo>
+                <!--Optional:-->
+                <smis:ShipToNumber></smis:ShipToNumber>
+                <!--Optional:-->
+                <smis:ShipToPostcode></smis:ShipToPostcode>
+                <!--Optional:-->
+                <smis:ShipToProvince></smis:ShipToProvince>
+                <!--Optional:-->
+                <smis:ShipToSoi></smis:ShipToSoi>
+                <!--Optional:-->
+                <smis:ShipToStreet></smis:ShipToStreet>
+                <!--Optional:-->
+                <smis:ShipToTambol></smis:ShipToTambol>
+                <!--Optional:-->
+                <smis:ShipToZone></smis:ShipToZone>
+                <!--Optional:-->
+                <smis:SpecialCondition></smis:SpecialCondition>
+                <!--Optional:-->
+                <smis:StatusRemarks></smis:StatusRemarks>
+                <smis:StatusSaleOrder>SM</smis:StatusSaleOrder>
+                <smis:SubCat>BU</smis:SubCat>
+                <!--Optional:-->
+                <smis:TopupDate></smis:TopupDate>
+                <smis:TotalAmountDevice></smis:TotalAmountDevice>
+                <smis:Vat>7%</smis:Vat>
+            </tem:inputItem>
+        </tem:GenerateOrder>
+    </soapenv:Body>
+</soapenv:Envelope>
+
+          

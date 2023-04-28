@@ -1,0 +1,177 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Envelope xmlns="http://schemas.xmlsoap.org/soap/envelope/" attr="Testvalue">
+<Header />
+    <Body>
+      <GenerateOrder xmlns="http://tempuri.org/">
+         
+         <inputItem>
+            <AccountName xmlns="http://schemas.datacontract.org/2004/07/SMISWebService.IServices">แบล็ค-แคนยอน (ประเทศไทย)</AccountName>
+            <AccountNo xmlns="http://schemas.datacontract.org/2004/07/SMISWebService.IServices">8000004679</AccountNo>
+            <AccountTaxID xmlns="http://schemas.datacontract.org/2004/07/SMISWebService.IServices">0105536100555</AccountTaxID>
+            <AccountTitle xmlns="http://schemas.datacontract.org/2004/07/SMISWebService.IServices">-</AccountTitle>
+            
+            <AttachFileDetailList xmlns="http://schemas.datacontract.org/2004/07/SMISWebService.IServices">
+               
+               <AttachFileDetail>
+               <DocType>QT</DocType>
+                  <FileName>QT_Q2017GA001520_AWN_30062017_144658.pdf</FileName>
+                  <FilePath>\\10.104.246.10\sht_cap_tst\DATA\SELLING1\SMIS\OUT\COA\QT_Q2017GA001520_AWN_30062017_144658.pdf</FilePath>
+               </AttachFileDetail>
+            </AttachFileDetailList>
+            <AvailableCredit xmlns="http://schemas.datacontract.org/2004/07/SMISWebService.IServices">1000000</AvailableCredit>
+            <Category xmlns="http://schemas.datacontract.org/2004/07/SMISWebService.IServices">B</Category>
+            <ChargingType xmlns="http://schemas.datacontract.org/2004/07/SMISWebService.IServices">1</ChargingType>
+            
+            <CommercialName xmlns="http://schemas.datacontract.org/2004/07/SMISWebService.IServices" />
+            <Company xmlns="http://schemas.datacontract.org/2004/07/SMISWebService.IServices">AWN</Company>
+            <ContactFirstName xmlns="http://schemas.datacontract.org/2004/07/SMISWebService.IServices">กรวิภา</ContactFirstName>
+            <ContactLastName xmlns="http://schemas.datacontract.org/2004/07/SMISWebService.IServices">Test</ContactLastName>
+            <ContactPhone xmlns="http://schemas.datacontract.org/2004/07/SMISWebService.IServices">0892301110</ContactPhone>
+            <ContactTitle xmlns="http://schemas.datacontract.org/2004/07/SMISWebService.IServices">คุณ</ContactTitle>
+            
+            <ContactTitleOther xmlns="http://schemas.datacontract.org/2004/07/SMISWebService.IServices">คุณ</ContactTitleOther>
+            <ContractCostExcVat xmlns="http://schemas.datacontract.org/2004/07/SMISWebService.IServices">102500</ContractCostExcVat>
+            <ContractCostIncVat xmlns="http://schemas.datacontract.org/2004/07/SMISWebService.IServices">1000</ContractCostIncVat>
+            <ContractCostVat xmlns="http://schemas.datacontract.org/2004/07/SMISWebService.IServices">7</ContractCostVat>
+            <ContractEndDate xmlns="http://schemas.datacontract.org/2004/07/SMISWebService.IServices">10/01/2024</ContractEndDate>
+            <ContractStartDate xmlns="http://schemas.datacontract.org/2004/07/SMISWebService.IServices">11/01/2023</ContractStartDate>
+            <FormLanguage xmlns="http://schemas.datacontract.org/2004/07/SMISWebService.IServices">TH</FormLanguage>
+            <HaveDevice xmlns="http://schemas.datacontract.org/2004/07/SMISWebService.IServices">1</HaveDevice>
+            <IsMultiShipto xmlns="http://schemas.datacontract.org/2004/07/SMISWebService.IServices">Y</IsMultiShipto>
+            <IsPort xmlns="http://schemas.datacontract.org/2004/07/SMISWebService.IServices">N</IsPort>
+            
+            <IsSendMail xmlns="http://schemas.datacontract.org/2004/07/SMISWebService.IServices">N</IsSendMail>
+            <IsUPF xmlns="http://schemas.datacontract.org/2004/07/SMISWebService.IServices">1</IsUPF>
+            
+            <LineApproveList xmlns="http://schemas.datacontract.org/2004/07/SMISWebService.IServices">
+               
+               <LineApprove>
+                  <ApproveFirstName>วีรชัย</ApproveFirstName>
+                  <ApproveLastName>พัชโรภาสวงศ์</ApproveLastName>
+                  <ApproveLevel>1</ApproveLevel>
+                  <ApprovePosition>H-ESL</ApprovePosition>
+                  <ApproveStatus>AP</ApproveStatus>
+                  <ApproveStatusUpdate>11/01/2023</ApproveStatusUpdate>
+                  <ApproveUser>WEERACPA</ApproveUser>
+               </LineApprove>
+            </LineApproveList>
+            
+            <MobileDetailList xmlns="http://schemas.datacontract.org/2004/07/SMISWebService.IServices">
+               
+               <MobileDetail>
+                  <MobileNumber>0892301110</MobileNumber>
+                  <SaleOrderDetailNo>1</SaleOrderDetailNo>
+               </MobileDetail>
+                 <MobileDetail>
+                  <MobileNumber>0892301111</MobileNumber>
+                  <SaleOrderDetailNo>1</SaleOrderDetailNo>
+               </MobileDetail>
+            </MobileDetailList>
+            <PeriodMonth xmlns="http://schemas.datacontract.org/2004/07/SMISWebService.IServices">12</PeriodMonth>
+            <ProductName xmlns="http://schemas.datacontract.org/2004/07/SMISWebService.IServices">Contract Phone</ProductName>
+            <ProductType xmlns="http://schemas.datacontract.org/2004/07/SMISWebService.IServices">Contract Phone</ProductType>
+            
+            <PromotionOnTopList xmlns="http://schemas.datacontract.org/2004/07/SMISWebService.IServices">
+               
+               <PromotionOnTop>
+              <PromotionOntopDesc>เหมาจ่าย 1,500 บาทต่อเดือน รับส่งข้อมูลฟรี 50 MB</PromotionOntopDesc>
+                  <PromotionOntopName>FC 1500Baht Free GPRS 50MB,then 0.05B/KB</PromotionOntopName>
+                  <SaleOrderDetailNo>1</SaleOrderDetailNo>
+               </PromotionOnTop>
+            </PromotionOnTopList>
+            <QuotationDate xmlns="http://schemas.datacontract.org/2004/07/SMISWebService.IServices">11/01/2023</QuotationDate>
+            <QuotationNo xmlns="http://schemas.datacontract.org/2004/07/SMISWebService.IServices">QUO-23111-231119</QuotationNo>
+            
+            <ReceiverEmail xmlns="http://schemas.datacontract.org/2004/07/SMISWebService.IServices">Test@Test.co.th</ReceiverEmail>
+            <ReceiverName xmlns="http://schemas.datacontract.org/2004/07/SMISWebService.IServices">กรวิภา Test </ReceiverName>
+            <ReceiverPhone xmlns="http://schemas.datacontract.org/2004/07/SMISWebService.IServices">0892301110</ReceiverPhone>
+            
+            <RemarkExceed xmlns="http://schemas.datacontract.org/2004/07/SMISWebService.IServices" />
+            
+            <RentDesire xmlns="http://schemas.datacontract.org/2004/07/SMISWebService.IServices" />
+            <SMTSaleOrderNo xmlns="http://schemas.datacontract.org/2004/07/SMISWebService.IServices">ORD-23111-231119</SMTSaleOrderNo>
+            <SaleBu xmlns="http://schemas.datacontract.org/2004/07/SMISWebService.IServices">BKK</SaleBu>
+            
+            <SaleOrderDetailList xmlns="http://schemas.datacontract.org/2004/07/SMISWebService.IServices">
+               
+               <SaleOrderDetail>
+                  
+                  <AccessoriesFor />
+                  <Brand>APPLE</Brand>
+                  <Color>WHITE</Color>
+                  <CommutedAmount>25358</CommutedAmount>
+                  <CompanyOfDevice>AWN</CompanyOfDevice>
+                  <IsMobileCare>N</IsMobileCare>
+                  
+                  <IsSharing>1</IsSharing>
+                  <Model>AIRPODS2</Model>
+                  <NewPCC>NEW</NewPCC>
+                  <PhoneType>M</PhoneType>
+                  
+                  <PrePaidCOS />
+                  <Price>35514.02</Price>
+                  
+                  <PriceEndOfPeriod />
+                  
+                  <PricePerMonth>500</PricePerMonth>
+                  
+                  <PromotionCode />
+                  
+                  <PromotionDescption />
+                  
+                  <PromotionName />
+                  <Quantity>2</Quantity>
+                  
+                  <RentalOfDevice />
+                  <SaleOrderDetailNo>1</SaleOrderDetailNo>
+                  <SumPrice>1</SumPrice>
+                  
+                  <SumUpFront />
+                  <SupplierType>INTERNAL</SupplierType>
+                  
+                  <TopUpType />
+                  
+                  <TopUpValue />
+                  
+                  <UpFrontPerNumber />
+               </SaleOrderDetail>
+            </SaleOrderDetailList>
+            <SaleorderDate xmlns="http://schemas.datacontract.org/2004/07/SMISWebService.IServices">11/01/2023</SaleorderDate>
+            <SalesRep xmlns="http://schemas.datacontract.org/2004/07/SMISWebService.IServices">SUNTHITJ</SalesRep>
+            <SalesRepName xmlns="http://schemas.datacontract.org/2004/07/SMISWebService.IServices">สัณฐิติ จันทนกูล</SalesRepName>
+            
+            <ShipToAmphur xmlns="http://schemas.datacontract.org/2004/07/SMISWebService.IServices" />
+            
+            <ShipToBuilding xmlns="http://schemas.datacontract.org/2004/07/SMISWebService.IServices" />
+            
+            <ShipToFloor xmlns="http://schemas.datacontract.org/2004/07/SMISWebService.IServices" />
+            
+            <ShipToMoo xmlns="http://schemas.datacontract.org/2004/07/SMISWebService.IServices" />
+            
+            <ShipToNumber xmlns="http://schemas.datacontract.org/2004/07/SMISWebService.IServices" />
+            
+            <ShipToPostcode xmlns="http://schemas.datacontract.org/2004/07/SMISWebService.IServices" />
+            
+            <ShipToProvince xmlns="http://schemas.datacontract.org/2004/07/SMISWebService.IServices" />
+            
+            <ShipToSoi xmlns="http://schemas.datacontract.org/2004/07/SMISWebService.IServices" />
+            
+            <ShipToStreet xmlns="http://schemas.datacontract.org/2004/07/SMISWebService.IServices" />
+            
+            <ShipToTambol xmlns="http://schemas.datacontract.org/2004/07/SMISWebService.IServices" />
+            
+            <ShipToZone xmlns="http://schemas.datacontract.org/2004/07/SMISWebService.IServices" />
+            
+            <SpecialCondition xmlns="http://schemas.datacontract.org/2004/07/SMISWebService.IServices" />
+            
+            <StatusRemarks xmlns="http://schemas.datacontract.org/2004/07/SMISWebService.IServices" />
+            <StatusSaleOrder xmlns="http://schemas.datacontract.org/2004/07/SMISWebService.IServices">SM</StatusSaleOrder>
+            <SubCat xmlns="http://schemas.datacontract.org/2004/07/SMISWebService.IServices">BU</SubCat>
+            
+            <TopupDate xmlns="http://schemas.datacontract.org/2004/07/SMISWebService.IServices" />
+            <TotalAmountDevice xmlns="http://schemas.datacontract.org/2004/07/SMISWebService.IServices" />
+            <Vat xmlns="http://schemas.datacontract.org/2004/07/SMISWebService.IServices">7%</Vat>
+         </inputItem>
+      </GenerateOrder>
+   </Body>
+</Envelope>

@@ -1,0 +1,46 @@
+{
+    "channel": "SMIS",
+    "transID": "Test61B8715E33DCE0536AA4FC0AB535",
+    "contractNo": "C2022/000424",
+    "saleOrderNo": "S2022/000497",
+    "company": "AWN",
+    "itemList": [
+        {
+            "itemNo": "1",
+            "deviceInfo": [
+                {
+                    "imeiSerialNo": " S2021000058SK003",
+                    "option": " update"
+                }
+            ],
+            "simInfo": [
+                {
+                    "mobileNo": "0892222091",
+                    "serialNo": "199110062900074",
+                    "simProductType": "Main"
+                },
+                {
+                    "mobileNo": "0892222091",
+                    "serialNo": "199110062900075",
+                    "simProductType": "MultiSIM1"
+                }
+            ]
+        },
+        {
+            "itemNo": "2",
+            "deviceInfo": [
+                {
+                    "imeiSerialNo": " S2021000058SK006",
+                    "option": " update"
+                }
+            ],
+            "simInfo": [
+                {
+                    "mobileNo": "0892222092",
+                    "serialNo": "199110062900076",
+                    "simProductType": "Main"
+                }
+            ]
+        }
+    ]
+}
